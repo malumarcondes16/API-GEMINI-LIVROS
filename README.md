@@ -1,4 +1,4 @@
-# 📚 Book Generator
+# 📚 Gerador de Livros
 
 Este é um projeto de um gerador de livros que utiliza a API fornecida pelo Gemini. O site permite que o usuário insira três ou mais nomes de autores literários ou gêneros literários em campos diferentes e, ao clicar no botão "Gerar Livro", um formulário é retornado com informações sobre o livro indicado, incluindo o nome, sinopse, número de páginas e gênero literário.
 
