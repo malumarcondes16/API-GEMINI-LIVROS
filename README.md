@@ -15,18 +15,6 @@ Este é um projeto de um gerador de livros que utiliza a API fornecida pelo Gemi
 - **Gemini API**: API utilizada para gerar as informações dos livros.
 - **HTML/CSS**: Usados para construir a interface do usuário.
 
-## 📂 Estrutura do Projeto
-
-nome-do-repositorio/
-│
-├── app.py                # Arquivo principal da aplicação Flask
-├── templates/
-│   └── index.html        # Página principal do site
-├── static/
-│   ├── css/
-│   └── js/
-├── README.md             # Este arquivo
-└── requirements.txt      # Lista de dependências do projeto
 
 ## 📞 Contato
 - **Criado por Maria Luísa**.
