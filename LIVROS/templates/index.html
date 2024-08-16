@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Livros</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="formulario">
+            <img src="{{url_for('static', filename='img/logo.png')}}" style="width: 150px">
+            <h2>Gerador de livros</h2>
+            <p>Encontre livros perfeitos para você, explorando uma vasta seleção de gêneros literários e autores. Utilize nossa ferramenta intuitiva, alimentada pela API do Gemini, para personalizar suas buscas e encontrar obras que se alinhem com seus interesses e preferências. Sua próxima aventura literária está a um clique de distância!</p>
+            <div id="books">
+                <div class="book-row">
+                    <input type="text" class="book book-input" placeholder="Informe um gênero ou autor literário...">
+                    <button class="btn-danger" onclick="removeBook(this)" disabled>Excluir</button>
+                </div>
+                <div class="book-row">
+                    <input type="text" class="book book-input" placeholder="Informe um gênero ou autor literário...">
+                    <button class="btn-danger" onclick="removeBook(this)" disabled>Excluir</button>
+                </div>
+                <div class="book-row">
+                    <input type="text" class="book book-input" placeholder="Informe um gênero ou autor literário...">
+                    <button class="btn-danger" onclick="removeBook(this)" disabled>Excluir</button>
+                </div>
+            </div>
+            <button class="btn-primary" onclick="addBook()">Adicionar Gênero/Autor</button>
+            <button class="btn-success" onclick="submitForm()">Gerar Livro</button>
+        </div>
+        <div id="response" class="response"></div>
+
+        
+    </div>
+    <footer style="padding: 10px; text-align: center; background-color: #f1ede9;">
+        <p style="margin: 0; font-size: 16px;">Desenvolvido por Maria Luísa e Cecília</p>
+        <p style="margin: 0; font-size: 16px;">Desenvolvimento de Sistemas - SESI SENAI - Itapeva/SP</p>
+        <p style="margin: 0; font-size: 12px;">2024</p>
+    </footer>
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>

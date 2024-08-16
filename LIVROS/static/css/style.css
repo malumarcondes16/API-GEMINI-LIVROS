@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #b4761a;
+    background-image: url('../img/2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Adiciona a imagem ao fundo fixo */
+}
+
+
+.container {
+    text-align: center;
+    width: 100vw;
+    min-height: 80vh ;
+}
+
+.formulario {
+    border: 1px solid #7e7d7d;
+    border-radius: 20px;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f1ede9;
+    color: #b4761a;
+    position: relative; 
+}
+
+.formulario img {
+    width: 150px; 
+    position: absolute; 
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    margin: 0; 
+}
+
+.formulario h2 {
+    margin-top: 160px; 
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: 600; /* Peso da fonte mais forte */
+    color: #b4761a; 
+    margin-bottom: 20px; /* Espaçamento inferior para separar do parágrafo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque */
+}
+.formulario p {
+    font-size: 1rem; /* Tamanho da fonte para o parágrafo */
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+    text-align: center; /* Centraliza o texto */
+    color: #6a4c40; 
+}
+
+
+.response {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    text-align: left;
+    width: 80%; /* Ajusta a largura da caixa de resposta */
+    max-width: 600px; 
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.book-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.book-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-primary,
+.btn-danger,
+.btn-success {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #d3d3d3; /* Borda cinza claro */
+}
+
+.btn-primary {
+    background-color: #b4761a;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: crimson;
+    color: azure;
+}
+
+.btn-success {
+    background-color: #207a16;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    .book-row {
+        flex-direction: row;
+    }
+
+    .book-input {
+        width: calc(100% - 100px);
+        margin-right: 10px;
+    }
+
+    .btn-danger {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .btn-primary, .btn-success {
+        width: 40%;
+        margin-bottom: 0;
+    }
+
+    .btn-primary {
+        margin-right: 4%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .book-row {
+        flex-direction: column;
+    }
+
+    .book-input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn-danger {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn-primary, .btn-success {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    width: 100vw;
+    height: 100%;
+    padding: 10px 0;
+    background-color:#f1ede9 ;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    footer p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    footer p {
+        font-size: 1.25rem;
+    }
+}
