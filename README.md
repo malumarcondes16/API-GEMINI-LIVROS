@@ -31,9 +31,9 @@ nome-do-repositorio/
 ## 📞 Contato
 - **Criado por Maria Luísa**.
 
-LinkedIn: https://www.linkedin.com/in/maria-luisa-marcondes-nunes-55b9432b8
-GitHub: malumarcondes16
-E-mail: maria.nunes.senai@gmail.com
+- LinkedIn: https://www.linkedin.com/in/maria-luisa-marcondes-nunes-55b9432b8
+- GitHub: malumarcondes16
+- E-mail: maria.nunes.senai@gmail.com
 
 ## 📄 Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
